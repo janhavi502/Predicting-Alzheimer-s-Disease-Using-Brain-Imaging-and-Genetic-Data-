@@ -1,6 +1,6 @@
 <div align="center">
 
-![Alzheimer’s ML project banner](assets/project-banner.png)
+![Alzheimer’s ML project banner](project-banner.png)
 
 # Predicting Alzheimer’s Disease Using Brain Imaging and Genetic Data
 
@@ -18,7 +18,7 @@ The notebook develops a **three-class classification pipeline** and separately c
 
 ## Workflow
 
-![Machine learning pipeline from OASIS data to model evaluation](assets/ml-workflow.png)
+![Machine learning pipeline from OASIS data to model evaluation](ml-workflow.png)
 
 1. **Load OASIS data** from the cross-sectional Excel worksheet.
 2. **Clean data** by filling missing values in `Educ`, `SES`, `MMSE`, and `CDR` with column medians; remove `Delay`; save `oasis_cleaned.csv`.
